@@ -1,0 +1,27 @@
+{
+  "name": "xinyu-yuan-backend",
+  "version": "1.0.0",
+  "description": "心语愿 - 心理咨询陪伴平台后端",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "psychology",
+    "counseling",
+    "ai",
+    "qwen"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
